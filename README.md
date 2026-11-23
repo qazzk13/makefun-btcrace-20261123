@@ -23,7 +23,14 @@ a knife-edge fit.
 
 ## Local grade (dev window)
 
-<!-- filled after grade-local runs -->
+`grade-local --driver process` at commit `b514696` (two executions, L1 regrade
+reproduced byte for byte):
+
+- net PnL **+31.056589 USDC** (return +3.11%); at 2x fees +30.232898 USDC
+- 1 trade, win rate 1.0, 0 rejected orders
+- max drawdown 0.0198 (1.98%), exposure 0.96, Sharpe 0.0269
+- fees 0.812588 USDC; guardrails met
+- action_log_sha256 `1e077f55ddffa8d71e6331a60c3b7a37c61f6fd79f5cef43eecb7fd8a0f85165`
 
 ## Files
 
